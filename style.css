@@ -80,3 +80,53 @@ input{
     
     width: 80%;
 }
+
+@media screen  and (max-width:576px){
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .item{
+        display: none;
+    }
+    .fresh{
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .text-center{
+
+    }
+    .container{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plant{
+        flex-wrap: wrap;
+    }
+    .logo{
+        display: none;
+    }
+    .deals{
+        flex-wrap: wrap;
+    }
+    .img-card{
+        flex-wrap: wrap;
+    }
+    .email-section{
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-size: cover;
+        
+        
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+
+}
+    
+
